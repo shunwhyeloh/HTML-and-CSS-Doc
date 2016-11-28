@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!-- This is an HTML comment -->
+<html lang="en">
+<head>
+	<title>Key concepts of Stage 0 and Stage 1</title>
+	<link rel="stylesheet" href= "shunwhye-style.css">
+</head>
+<body>
+	<div class="TOC">
+	<h1>Table of Contents</h1>
+		<ul>
+			<li>Stage 0: The Basics of the Web & HTML</li>
+			<li>Stage 1: Structure HTML Document & Add Style via CSS</li>
+		</ul>
+	</div>
+	<h1>Key Concepts</h1>
+	<div class="Stage">
+		<h2>Stage 0: The Basics the Web & HTML</h2>
+		<div class="concept-title">
+			Web
+		</div>
+		<div class="concept-description">
+			<p>
+				Web is invented in 1990s and it contains of 30 billion pages.
+			</p>
+			<p>
+				Web is a series of HTML (Hyper Text Markup Language) document.
+			</p>
+			<p>
+				For the process of web navigation, there are 3 main roles which are user with browers, the internet, and the servers.
+			</p>
+			<p>
+				The search request will be delivered through the internet to the servers ("storages" that contain extensive amount of web pages), using the protocal of http. The servers will then request the internet to respond to the user's search request. Information respond base on the request will then be displayed on user's digital devices.
+			</p>
+		</div>
+		<div class="concept-title">
+			HTML
+		</div>	
+		<div class="concept-description">
+			<p>
+				HTML is the most fundamental type of document for all web pages that helps to link everything together. The link that helps to connect all the media contents called the <em>Hyper Link</em>.
+			</p>
+			<p>
+				HTML markup is made up of tags and tags that has no content such as image doesn not need a closing tag and this is known as a <em>void tag</em>.
+			</p>
+			<p>
+				The whole line that is created with tags called element.
+			</p>
+		</div>
+		<div class="concept-title">
+			Inline vs Block
+		</div>
+		<div class="concept-description">
+			<p>
+				HTML elements are either inline or block. Block creates an "invisible box" around the content.
+			</p>
+			<p>
+				For example, <em>br</em> (inline) creates a space between words or to separate one line into two lines. <em>p</em> (block) creates an invisible box with height and width around text or sentence.
+			</p>
+			<p>
+				Inline tags: b, br, img, em, span, strong
+			</p>
+			<p>
+				Block tags: h, t, p, div, form
+			</p>
+		</div>
+		<div class="concept-title">
+			span & div
+		</div>
+		<div class="concept-description">	
+			<p>
+				span and div both have content.
+			</p>
+			<p>
+				span is inline element; div is block element. 
+			</p>
+		</div>
+	</div>
+	<div class="Stage-1">
+		<h2>Stage 1: Structure HTML Document & Add Style via CSS</h2>		
+		<div class="concept-title">
+			The "branching structure" of HTML
+		</div>
+			<div class="image"><img src="https://telerikhelper.files.wordpress.com/2013/04/image_thumb15.png?w=748&h=597" alt= "A graph showing an example of the branching structure of html"></div>
+		<div class="concept-description">
+			<p>
+				"tree-like structure" of HTML meaning HTML elements can contain multiple elements within them. Such relationship can be described as a family tree. 
+			</p>
+			<p>
+				The structure will present itself as a series of nested boxes in the browser, meaning there are multiple boxes within boxes. 
+			</p>
+		</div>
+		<div class="concept-title">
+			HTML Indentations
+		</div>
+		<div class="concept-description">
+			<p>
+				A series of changing HTML identations on the left from the beginning to the end can be seen in a HTML document. The more indented an element is the more "boxes" it contains.
+			</p>
+		</div>
+		<div class="concept-title">
+			Text Editors for Programming
+		</div>
+		<div class="concept-description">
+			<p>
+				Subline text for example can allow more efficiency when it comes to code writing. Because the editor will automatically provide a closing tag when an opening tag is written.  
+			</p>
+		</div>
+		<div class="concept-title">
+			Group elements via div & class
+		</div>
+		<div class="concept-description">
+			<p>
+				Repetition like writting the same codes multiple times may lead to errors when changing something in a document. To avoid repetition, the method of grouping elements via <em>div</em> and <em>class</em> can be used.
+			</p>
+		</div>
+		<div class="concept-title">
+			CSS
+		</div>
+		<div class="concept-description">
+			<p>
+				CSS/ Cascasing Style Sheets serve to visualize the presentation of an HTML document by adding style and color into it. 
+			</p>
+		</div>
+		<div class="concept-title">
+			Code, Test, Refine
+		</div>
+		<div class="concept-description">
+			<ul>
+				<li>
+					Look for natural boxes
+				</li>
+				<li>
+					Look for repeated styles and semantic elements
+				</li>
+				<li>
+					Write and construct HTML
+				</li>
+				<li>
+					Apply style
+				</li>
+				<li>
+					Check and fix things
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+
+<style>
+body {
+	font-family: "Calibri";
+	padding: 20px 10px;
+	margin: auto;
+	max-width: 1200px;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 300%;
+	font-weight: bold;
+}
+
+h2 {
+	font-weight: bold;
+	text-align: center;
+	background-color: #FFEBCD;
+	border-radius: 20px;
+	padding: 13px 0px 13px 0px;
+}
+
+.concept-title {
+	font-size: 150%;
+	font-weight: bold;
+	text-align: center;
+	background-color: #FFEBCD;
+	margin-top: 20px;
+	border-radius: 20px;
+	padding: 13px 0px 13px 0px;
+}
+
+.concept-description {
+	background-color: #DCDCDC;
+	border-radius: 20px;
+	padding: 20px 50px 20px 50px;
+}
+
+p {
+	margin-top: 0px;
+	font-size: 120%;
+}
+
+ul {
+	font-size: 120%;
+}
+
+.image {
+	display: block;
+	margin: auto;
+	width: 55%;
+}</style>
+
+
+
+
+
+
+
+
+
+
+
